@@ -15,3 +15,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 pnpm-lock.yaml
+.quasar
