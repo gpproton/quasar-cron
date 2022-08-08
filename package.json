@@ -1,0 +1,28 @@
+{
+  "name": "@gpproton/qcron",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r --filter ./ui run dev",
+    "clean": " pnpm clean:dist && pnpm clean:packages",
+    "clean:packages": "rimraf **/node_modules **/.pnpm-debug* **/pnpm-lock.yaml",
+    "clean:dist": "rimraf **/build **/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gpproton/quasar-app-extension-qcron": "workspace:*",
+    "@gpproton/quasar-ui-qcron": "workspace:*",
+    "@gpproton/quasar-dev-qcron": "workspace:*",
+    "pnpm": "^7.9.0",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1",
+    "pnpm": ">=3"
+  }
+}
