@@ -1,9 +1,6 @@
 <template>
   <q-page padding>
-    
-    <QCron />
-    
-    
+    <q-cron />
   </q-page>
 </template>
 
